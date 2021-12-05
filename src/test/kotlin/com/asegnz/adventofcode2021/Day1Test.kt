@@ -6,13 +6,13 @@ import org.junit.jupiter.api.Test
 internal class Day1Test {
     @Test
     fun example() {
-        val incrementos = Day1.calculaMayores("src/main/resources/day1/example.txt");
+        val incrementos = Day1.calculaMayores("src/main/resources/day1/example.txt")
         Assertions.assertEquals(7, incrementos)
     }
 
     @Test
     fun calculaIncrementos() {
-        val incrementos = Day1.calculaMayores("src/main/resources/day1/exam.txt");
+        val incrementos = Day1.calculaMayores("src/main/resources/day1/exam.txt")
         println(incrementos)
     }
 
