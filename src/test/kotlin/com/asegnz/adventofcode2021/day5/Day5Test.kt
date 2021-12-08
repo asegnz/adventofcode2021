@@ -1,8 +1,8 @@
-package com.asegnz.adventofcode2021
+package com.asegnz.adventofcode2021.day5
 
-import com.asegnz.adventofcode2021.Day5.Companion.puntosParte1
-import com.asegnz.adventofcode2021.Day5.Companion.puntosParte2
-import com.asegnz.adventofcode2021.Day5.Coordenada
+import com.asegnz.adventofcode2021.day5.Day5.Companion.puntosParte1
+import com.asegnz.adventofcode2021.day5.Day5.Companion.puntosParte2
+import com.asegnz.adventofcode2021.day5.Day5.Coordenada
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -17,7 +17,7 @@ internal class Day5Test {
     @Test
     fun vectoresHorizontales() {
         val coordenada = Coordenada(0, 0)
-        val coordenadas = coordenada.vector(Coordenada(3,0))
+        val coordenadas = coordenada.vector(Coordenada(3, 0))
         assertEquals(coordenada, coordenadas.get(0))
         assertEquals(Coordenada(1, 0), coordenadas.get(1))
         assertEquals(Coordenada(2, 0), coordenadas.get(2))
@@ -27,7 +27,7 @@ internal class Day5Test {
     @Test
     fun vectoresVerticales() {
         val coordenada = Coordenada(0, 0)
-        val coordenadas = coordenada.vector(Coordenada(0,3))
+        val coordenadas = coordenada.vector(Coordenada(0, 3))
         assertEquals(coordenada, coordenadas.get(0))
         assertEquals(Coordenada(0, 1), coordenadas.get(1))
         assertEquals(Coordenada(0, 2), coordenadas.get(2))

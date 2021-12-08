@@ -1,4 +1,4 @@
-package com.asegnz.adventofcode2021
+package com.asegnz.adventofcode2021.day2
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test

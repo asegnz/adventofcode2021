@@ -1,4 +1,4 @@
-package com.asegnz.adventofcode2021
+package com.asegnz.adventofcode2021.day5
 
 import java.io.File
 
